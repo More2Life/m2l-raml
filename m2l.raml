@@ -22,10 +22,10 @@ types:
   Video:
     type: FeedItem
     properties:
-      previewImageURL:
+      previewImageUrl:
         description: The url to the image for the frame of the video to show as a preview
         type: string
-      videoURL:
+      videoUrl:
         description: The url to the video stream
         type: string
       publishDate:
@@ -78,3 +78,4 @@ types:
         body:
           application/json:
             type: FeedItem[]
+            example: !include /examples/feed-example.json
